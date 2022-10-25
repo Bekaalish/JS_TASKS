@@ -2,9 +2,9 @@ let a = 17;
 let b = 10;
 console.log(a - b);
 
-let h = 'час';
-let m = "минута";
-let s = `секунда`
+let h = prompt('час');
+let m = prompt("минута");
+let s = prompt(`секунда`);
 let hours = `${h}:${m}:${s}`;
 console.log(hours);
 
